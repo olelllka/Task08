@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="659.0" prefWidth="731.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task08.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <HBox prefHeight="25.0" prefWidth="469.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#AddLights" text="Гирлянда" />
+            <Button mnemonicParsing="false" onAction="#AddStar" text="Звезда" />
+            <Button mnemonicParsing="false" onAction="#AddPresents" text="Подарки" />
+            <Button mnemonicParsing="false" onAction="#AddGirlStar" text="Гирлянда и звезда" />
+            <Button mnemonicParsing="false" onAction="#DeleteAll" text="Удалить всё" />
+            <Button mnemonicParsing="false" onAction="#AddAll" text="Нарядить полностью" />
+         </children>
+      </HBox>
+      <Pane fx:id="paneLight" prefHeight="278.0" prefWidth="380.0" />
+   </children>
+</VBox>
